@@ -1,0 +1,8 @@
+{
+    "esversion": 6,
+    "globals": {
+      "console": false,
+      "module": false
+    }
+  }
+  
