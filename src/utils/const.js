@@ -1,4 +1,5 @@
 export const logo = require('./img/logo.png');
+export const logo2=require('./img/logo2.png');
 export const bino = require('./img/bino.jpg');
 
 export const categories = [
@@ -10,6 +11,42 @@ export const categories = [
   { id: 6, name: "Yangiliklar", link: '/news' },
   { id: 7, name: 'Manzil', link: '/map' }
 ];
+
+export const teachers=[
+  {
+    id: "1",
+    name: "John",
+    surname: "Doe",
+    degree: "Master of Science in Computer Science",
+    bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec nibh a neque ullamcorper pellentesque in non orci.",
+    picture: "https://randomuser.me/api/portraits/men/1.jpg"
+  },
+  {
+    id: "2",
+    name: "Jane",
+    surname: "Smith",
+    degree: "Master of Arts in English Literature",
+    bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec nibh a neque ullamcorper pellentesque in non orci.",
+    picture: "https://randomuser.me/api/portraits/women/2.jpg"
+  },  
+  {
+    id: "3",
+    name: "Robert",
+    surname: "Brown",
+    degree: "Bachelor of Science in Chemistry",
+    bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec nibh a neque ullamcorper pellentesque in non orci.",
+    picture: "https://randomuser.me/api/portraits/men/3.jpg"
+  },{
+    id: "4",
+    name: "Samantha",
+    surname: "Lee",
+    degree: "Doctorate of Dental Medicine",
+    bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec nibh a neque ullamcorper pellentesque in non orci.",
+    picture: "https://randomuser.me/api/portraits/women/4.jpg"
+  }
+  
+  
+]
 
 export const mainMof = `AXBOROT-KOMMUNIKATSIYA
  TEXNOLOGIYALARI VA ALOQA HARBIY 

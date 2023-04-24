@@ -1,15 +1,27 @@
+import { useEffect } from 'react';
 import { GoodStudent } from './'
 import { bino, mofHistory, mof } from '../utils/const';
 import { AiOutlineRight } from 'react-icons/ai';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const About = () => {
+
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+
   return (
     <div className='container ta'>
+      {/* Fakultet Haqida */}
       <div
         className='raleway about-mof col-444'>
         <h3 className='head-text bot-line m-top-20 '>{mof}</h3>
         <p className='content-text m-top-20 raleway '> {mofHistory} </p>
-        <img src={bino} alt="Bino" className='m-top-20' />
+        <img
+          src={bino} alt="Bino"
+          data-aos="zoom-in-up"
+          className='m-top-20' />
         <ul className='df about-mof-ul m-bot-80'>
           <li className='m-top-20'>
             <ul>
@@ -54,6 +66,7 @@ const About = () => {
           </li>
         </ul>
       </div>
+      {/* Namunali kursantlar */}
       <div >
         <h3 className='head-text bot-line col-222 '>
           ALOQA HARBIY INSTITUTI NAMUNALI KURSANTLARI

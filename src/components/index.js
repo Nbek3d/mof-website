@@ -7,4 +7,6 @@ export { default as Scientific } from './Scientific';
 export { default as Student } from './Student';
 export { default as Teacher } from './Teacher'; 
 export { default as TopBtn } from './TopBtn';
-export { default as GoodStudent } from './GoodStudent'
+export { default as GoodStudent } from './GoodStudent';
+export { default as Card } from './Card';
+
