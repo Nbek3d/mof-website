@@ -18,7 +18,7 @@ export const teachers=[
     name: "John",
     surname: "Doe",
     degree: "Master of Science in Computer Science",
-    bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec nibh a neque ullamcorper pellentesque in non orci.",
+    bio: "Lorem ipsum dolo lorem10 as as as qa sit amet, consectetur adipiscing elit. Duis nec nibh a neque ullamcorper pellentesque in non orci.",
     picture: "https://randomuser.me/api/portraits/men/1.jpg"
   },
   {
@@ -48,9 +48,10 @@ export const teachers=[
   
 ]
 
-export const mainMof = `AXBOROT-KOMMUNIKATSIYA
- TEXNOLOGIYALARI VA ALOQA HARBIY 
- INSTITUTI QABUL SAYTIGA XUSH KELIBSIZ!`;
+export const mainMof = `“Аxborot kommunikatsiya texnologiyalari va aloqa harbiy instituti MOF taʼlim va tarbiya jarayonlarini yanada tizimli uzviy takomillashtirish. 
+Loyihaning maqsadi: 
+АKT va АHI kursantlarining MOF-ga tanlovdan keyingi bosqichlarda ularni Vatanparvarlik shuningdek, harbiy-kasbiy faoliyatlarni “talim, bilim, malaka va sifat nazorati”
+ tizimida faol amalga oshirib borish!`;
 
 export const mof = `
  AXBOROT-KOMMUNIKATSIYA TEXNOLOGIYALARI 
@@ -66,7 +67,7 @@ export const mofHistory = `
   tashkil etildi.`
 
 
-export const tgLink = 'https://t.me/kunuz'
+export const tgLink = 'https://t.me/Malaka_of'
 
 export const modifiedTgLink = {
   href: tgLink,

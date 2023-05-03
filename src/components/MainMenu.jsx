@@ -17,7 +17,7 @@ const MainMenu = () => {
       className='main-menu dfa'
     >
       <div className='container ta'>
-        <h1 className='large-text dfaj raleway col-222'>{mainMof}</h1>
+        <p className='main-text dfaj raleway col-444'> <strong> {mainMof}</strong> </p>
         <div className='main-menu-div'>
           <a {...modifiedTgLink} target="_blank" >
             <FaTelegram className='tg-link' />

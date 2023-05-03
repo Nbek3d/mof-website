@@ -29,7 +29,7 @@ const GoodStudent = () => {
 
   return (
     <div >
-      <Slider {...settings} className='slick-slider m-top-20'>
+      <Slider {...settings} className='slick-slider m-top-20 m-bot-40'>
 
         {goodStudent.map((item) => (
 
