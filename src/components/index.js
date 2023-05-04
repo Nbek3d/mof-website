@@ -9,7 +9,5 @@ export { default as Teacher } from './Teacher';
 export { default as TopBtn } from './TopBtn';
 export { default as GoodStudent } from './GoodStudent';
 export { default as Card } from './Card';
-export { default as Footer } from './Footer';
-export { default as NewsCard } from './NewsCard';
 export { default as Links } from './Links';
 

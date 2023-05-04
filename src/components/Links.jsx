@@ -14,11 +14,6 @@ const Links = () => {
         arrows: true,
         dots: true,
         dotsClass: 'slick-dots custom-dots',
-        // appendDots: (dots) => (
-        //     <div>
-        //         <ul>{dots.slice(0, 3)}</ul>
-        //     </div>
-        // ),
         autoplay: true,
         speed: 1000,
         autoplaySpeed: 3000,
@@ -34,7 +29,7 @@ const Links = () => {
                 <Slider {...settings} className='slick-slider'>
                     {
                         links.map((item) => (
-                            <div key={item.id} className='slick-slide links-slider dfj ta m-bot-10'>
+                            <div key={item.id} className='slick-slide links-slider dfj ta m-bot-10 '>
                                 <a href={item.link} className='dfaj gap-5 '>
                                     <img
                                         src={item.logo}

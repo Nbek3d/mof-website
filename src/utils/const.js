@@ -1,9 +1,9 @@
 export const logo = require('./img/logo.png');
-export const logo2=require('./img/logo2.png');
-export const oliytalim=require('./img/linklogo/oliytalim.png');
-export const tuit=require('./img/linklogo/tuit.png');
-export const lexuz=require('./img/linklogo/lexuz.png');
-export const mygov=require('./img/linklogo/mygov.png');
+export const logo2 = require('./img/logo2.png');
+export const oliytalim = require('./img/linklogo/oliytalim.png');
+export const tuit = require('./img/linklogo/tuit.png');
+export const lexuz = require('./img/linklogo/lexuz.png');
+export const mygov = require('./img/linklogo/mygov.png');
 export const bino = require('./img/bino.jpg');
 
 export const categories = [
@@ -16,7 +16,7 @@ export const categories = [
   { id: 7, name: 'Manzil', link: '/map' }
 ];
 
-export const teachers=[
+export const teachers = [
   {
     id: "1",
     name: "John",
@@ -32,7 +32,7 @@ export const teachers=[
     degree: "Master of Arts in English Literature",
     bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec nibh a neque ullamcorper pellentesque in non orci.",
     picture: "https://randomuser.me/api/portraits/women/2.jpg"
-  },  
+  },
   {
     id: "3",
     name: "Robert",
@@ -40,7 +40,7 @@ export const teachers=[
     degree: "Bachelor of Science in Chemistry",
     bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec nibh a neque ullamcorper pellentesque in non orci.",
     picture: "https://randomuser.me/api/portraits/men/3.jpg"
-  },{
+  }, {
     id: "4",
     name: "Samantha",
     surname: "Lee",
@@ -48,8 +48,8 @@ export const teachers=[
     bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec nibh a neque ullamcorper pellentesque in non orci.",
     picture: "https://randomuser.me/api/portraits/women/4.jpg"
   }
-  
-  
+
+
 ]
 
 export const mainMof = `“Аxborot kommunikatsiya texnologiyalari va aloqa harbiy instituti MOF taʼlim va tarbiya jarayonlarini yanada tizimli uzviy takomillashtirish. 
@@ -94,13 +94,37 @@ export const goodStudent = [
   { id: "12", name: 'Bob', image: bino, score: "Erishgan natijasi", course: "1-kurs kursant" },
 ]
 
-export const links=[
-  { id:'1',name:"O'zbekiston Respublikasi Mudofaa Vazirligi",link:'https://mudofaa.uz/',logo:logo2 },
-  { id:'2',name:"Oliy Ta'lim Vazirligi",link:'https://edu.uz/',logo:oliytalim},
-  { id:'3',name:"MUHAMMAD AL-XORAZMIY NOMIDAGI TOSHKENT AXBOROT TEXNOLOGIYALARI UNIVERSITETI" ,link:'https://tuit.uz/',logo:tuit},
-  { id:'4',name:"O'ZBEKISTON RESPUBLIKASI QONUNCHILIK MA'LUMOTLARI MILLIY BAZASI",link:'https://lex.uz/',logo:lexuz},
-  { id:'5',name:"Yagona interaktiv davlat xizmatlari portali",link:'https://my.gov.uz/',logo:mygov},
-  { id:'6',name:"AXBOROT-KOMMUNIKATSIYA TEXNOLOGIYALARI VA ALOQA HARBIY INSTITUTI",link:'https://qabul.mvahi.uz/',logo:logo}
+export const links = [
+  { id: '1', name: "O'zbekiston Respublikasi Mudofaa Vazirligi", link: 'https://mudofaa.uz/', logo: logo2 },
+  { id: '2', name: "Oliy Ta'lim Vazirligi", link: 'https://edu.uz/', logo: oliytalim },
+  { id: '3', name: "MUHAMMAD AL-XORAZMIY NOMIDAGI TOSHKENT AXBOROT TEXNOLOGIYALARI UNIVERSITETI", link: 'https://tuit.uz/', logo: tuit },
+  { id: '4', name: "O'ZBEKISTON RESPUBLIKASI QONUNCHILIK MA'LUMOTLARI MILLIY BAZASI", link: 'https://lex.uz/', logo: lexuz },
+  { id: '5', name: "Yagona interaktiv davlat xizmatlari portali", link: 'https://my.gov.uz/', logo: mygov },
+  { id: '6', name: "AXBOROT-KOMMUNIKATSIYA TEXNOLOGIYALARI VA ALOQA HARBIY INSTITUTI", link: 'https://qabul.mvahi.uz/', logo: logo }
 ]
 
 export const address = "https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d48025.946067092584!2d69.139861!3d41.208222!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sus!4v1681939035749!5m2!1sru!2sus"
+
+export const news = [
+  {
+    id: 1,
+    title: "Bizning ijtimoiy tarmoqlardagi sahifalarimizda elektron hukumat doirasidagi so'nggi o'zgarishlar va xabarlar bilan tanishishingiz, shuningdek davlat xizmatlaridan foydalanish sohasida sizni qiziqtirgan savollaringizni yo'llashingiz mumkin",
+    image:bino
+  },
+  {
+    id: 2,
+    title: "Bizning ijtimoiy tarmoqlardagi sahifalarimizda elektron hukumat doirasidagi so'nggi o'zgarishlar va xabarlar bilan tanishishingiz, shuningdek davlat xizmatlaridan foydalanish sohasida sizni qiziqtirgan savollaringizni yo'llashingiz mumkin",
+    image:bino
+  },
+  {
+    id: 3,
+    title: "Bizning ijtimoiy tarmoqlardagi sahifalarimizda elektron hukumat doirasidagi so'nggi o'zgarishlar va xabarlar bilan tanishishingiz, shuningdek davlat xizmatlaridan foydalanish sohasida sizni qiziqtirgan savollaringizni yo'llashingiz mumkin",
+    image:bino
+  },
+  {
+    id: 4,
+    title: "Bizning ijtimoiy tarmoqlardagi sahifalarimizda elektron hukumat doirasidagi so'nggi o'zgarishlar va xabarlar bilan tanishishingiz, shuningdek davlat xizmatlaridan foydalanish sohasida sizni qiziqtirgan savollaringizni yo'llashingiz mumkin",
+    image:bino
+  },
+
+]
