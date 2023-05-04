@@ -1,5 +1,9 @@
 export const logo = require('./img/logo.png');
 export const logo2=require('./img/logo2.png');
+export const oliytalim=require('./img/linklogo/oliytalim.png');
+export const tuit=require('./img/linklogo/tuit.png');
+export const lexuz=require('./img/linklogo/lexuz.png');
+export const mygov=require('./img/linklogo/mygov.png');
 export const bino = require('./img/bino.jpg');
 
 export const categories = [
@@ -88,6 +92,15 @@ export const goodStudent = [
   { id: "10", name: 'John', image: bino, score: "Erishgan natijasi loremdsfndos aidusud djudud susus ssuus usus ssu nscnscjasncu ", course: "1-kurs kursant" },
   { id: "11", name: 'Jane', image: bino, score: "Erishgan natijasi", course: "1-kurs kursant" },
   { id: "12", name: 'Bob', image: bino, score: "Erishgan natijasi", course: "1-kurs kursant" },
+]
+
+export const links=[
+  { id:'1',name:"O'zbekiston Respublikasi Mudofaa Vazirligi",link:'https://mudofaa.uz/',logo:logo2 },
+  { id:'2',name:"Oliy Ta'lim Vazirligi",link:'https://edu.uz/',logo:oliytalim},
+  { id:'3',name:"MUHAMMAD AL-XORAZMIY NOMIDAGI TOSHKENT AXBOROT TEXNOLOGIYALARI UNIVERSITETI" ,link:'https://tuit.uz/',logo:tuit},
+  { id:'4',name:"O'ZBEKISTON RESPUBLIKASI QONUNCHILIK MA'LUMOTLARI MILLIY BAZASI",link:'https://lex.uz/',logo:lexuz},
+  { id:'5',name:"Yagona interaktiv davlat xizmatlari portali",link:'https://my.gov.uz/',logo:mygov},
+  { id:'6',name:"AXBOROT-KOMMUNIKATSIYA TEXNOLOGIYALARI VA ALOQA HARBIY INSTITUTI",link:'https://qabul.mvahi.uz/',logo:logo}
 ]
 
 export const address = "https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d48025.946067092584!2d69.139861!3d41.208222!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sus!4v1681939035749!5m2!1sru!2sus"

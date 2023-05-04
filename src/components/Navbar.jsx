@@ -1,5 +1,5 @@
 import { useRef, useEffect } from 'react';
-import { categories, logo,logo2 } from '../utils/const';
+import { categories, logo, logo2 ,tuit} from '../utils/const';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
@@ -46,10 +46,17 @@ const Navbar = () => {
     <div className="nav-top">
       <nav>
         <ul className="container dfa nav">
-          <li>
+          <li className='df gap-20'>
             <Link to="/">
               <img src={logo} alt="logo" className="logo" />
             </Link>
+            <a href="https://mudofaa.uz/" target='_blank' rel="noopener noreferrer">
+              <img src={logo2} alt="logo" className="logo" />
+            </a>
+
+            <a href="https://tuit.uz/" target='_blank' rel="noopener noreferrer">
+              <img src={tuit} alt="logo" className="logo" />
+            </a>
           </li>
 
           <li>
@@ -76,7 +83,8 @@ const Navbar = () => {
           </li>
 
           <li className='dfa gap-20'>
-          <img src={logo2} alt="logo" className="logo" />
+           
+
             <button className="icons menu-icon" onClick={() => showNavbar(false)}>
               <FaBars />
             </button>

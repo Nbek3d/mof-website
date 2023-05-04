@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, MainMenu, News, About, Scientific, Student, Teacher, Map ,TopBtn,Footer} from './components';
+import { Navbar, MainMenu, News, About, Scientific,Links, Student, Teacher, Map ,TopBtn,Footer} from './components';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 
@@ -15,7 +15,8 @@ class App extends React.Component {
             <>
               <Navbar />
               <MainMenu />
-              <Footer/>
+              <Links/>
+              
               
             </>
           } />
@@ -25,7 +26,7 @@ class App extends React.Component {
             <>
               <Navbar />
               <News />
-              <Footer/>
+              <Links/>
               
             </>
           } />
@@ -35,7 +36,6 @@ class App extends React.Component {
             <>
               <Navbar />
               <About />
-              <Footer/>
               
             </>
           } />
@@ -45,7 +45,6 @@ class App extends React.Component {
             <>
               <Navbar />
               <Scientific />
-              <Footer/>
             </>
           } />
 
@@ -54,7 +53,6 @@ class App extends React.Component {
             <>
               <Navbar />
               <Student />
-              <Footer/>
             </>
           } />
 
@@ -63,7 +61,6 @@ class App extends React.Component {
             <>
               <Navbar />
               <Teacher />
-              <Footer/>
             </>
           } />
 
@@ -72,7 +69,6 @@ class App extends React.Component {
             <>
               <Navbar />
               <Map />
-              <Footer/>
             </>
           } />
         </Routes>
